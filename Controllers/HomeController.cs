@@ -20,5 +20,9 @@ namespace StackOverflowProject.Controllers
            List<QuestionViewModel> questions= this.qs.GetQuestions().Take(10).ToList();
             return View(questions);
         }
+        public ActionResult About()
+        {
+            return View();
+        }
     }
 }
