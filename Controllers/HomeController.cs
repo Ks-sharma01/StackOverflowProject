@@ -24,5 +24,9 @@ namespace StackOverflowProject.Controllers
         {
             return View();
         }
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }

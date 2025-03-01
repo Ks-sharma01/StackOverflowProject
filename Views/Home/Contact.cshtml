@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header bg-dark text-light">Teams</div>
+            <div class="card-body">
+                <p>
+                    A private, secure home for your team’s questions and answers. Start a free trial to create a new team. Perfect for teams of 10-500 members. Learn more about Teams.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header bg-dark text-light">Enterprise</div>
+            <div class="card-body">
+                <p>
+                    For public and private sector organizations with 100+ employees. Get answers to more than 16.5 million questions on StackOverflow. Learn more about Enterprise.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $("a[href='/home/contact']").attr("id", "active");
+</script>
